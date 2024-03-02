@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+.first{
+    background-color: rgb(36, 34, 34);
+    border: 0.3vw solid rgb(191, 191, 177);
+    border-radius: 1vw;
+    
+    width: 20%;
+    max-height: 100%;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+     
+
+}
+.second{
+    background: linear-gradient(132deg, rgba(83,90,91,1) 39%, rgba(255,255,255,1) 100%);
+    color: rgb(5, 2, 2);
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: space-between;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 3vw;
+    
+    
+
+}
+.img1{
+    width: 30vw;
+    border: 0.1vw outset black;
+    border-radius: 2vw;
+    margin: 2%;
+    height: 40vw;
+}
+.para{
+    font-size: 2vw;
+    margin: 1.5vw;
+    padding: 0.7vw;
+    font-family: 'Martel Sans', sans-serif;
+    
+}
+.p1{
+    font-size: 5vw;
+    margin: 1.5vw;
+    padding: 0.7vw;
+    font-family: 'Martel Sans', sans-serif;
+}
+ 
+
+.welcome-text {
+    color: rgb(201, 216, 220); /* Color for "welcome" */
+    font-family: 'Martel Sans', sans-serif;
+}
+.p2{
+    font-size: 4vw;
+    margin: 1.5vw;
+    padding: 0.7vw;
+    font-family: 'Martel Sans', sans-serif;
+}
+.listing{
+    list-style-type: none;
+    margin: 3vw;
+}
+ 
+.aboutc {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+        }
+
+.box{
+    background-color: rgb(45, 47, 47);
+    border: 0.1vw solid ;
+    width: 70%;
+    border-radius: 0.9vw;
+    height: 50%;
+    margin: 3vw;
+    padding: 5vw;
+    overflow: scroll;
+}
+ 
+
+/* Reset some default styles and provide a basic styling */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+ 
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .listing{
+        display: flex;
+        gap: 2vw;
+        font-size: 2vw;
+        flex-direction: row;
+    }
+
+    .first, .second {
+        width: 100%;
+        margin: 0;
+        height: 100%;
+    }
+}
+.txt{
+    color:white;
+    text-decoration-line: none;
+}
+.codingprofile {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .codingprofile {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+.box1{
+    color: white;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 5px;
+    height: 10%;
+    width:70% ;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 1%;
+    margin: 2%;
+    font-size: 150%;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+ .name{
+        color: rgb(163, 9, 206);
+        font-weight: bolder;
+ }
